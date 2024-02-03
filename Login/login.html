@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-In</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <img src="background.jpg" alt="Image">
+            <h1>Welcome To The Website</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur dicta vero exercitationem eveniet quidem, beatae aliquid porro molestias laboriosam ullam temporibus cupiditate qui. Adipisci ex veniam ratione omnis alias laboriosam?</p>
+            <form >
+                <h2>SIGN IN</h2>
+                <div class="input">
+                    <input type="text" name="username" placeholder="Username" id="user" pattern="[A-Z a-z]{3,}"   title="Please Enter your name" required/>
+                    <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                </div>
+                <div class="input">
+                    <input type="Password" name="password" placeholder="Password" id="pass" pattern=".{8,}"  title="Password should be atlest 8 charecters"   required>
+                     <span class="icon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                </div>
+                    <input type="checkbox" name="Remember" id="Remember" class="checkbox">
+                    <label for="Remember">Remember me</label>
+                    <a href="#">Forgot Password ?</a>
+                    <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
